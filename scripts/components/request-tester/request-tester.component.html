@@ -1,0 +1,12 @@
+<div>
+    <label>Get Data</label>
+    <button ng-click="ctrl.getWithRetry()">With Retry</button>
+    <br>
+    <button ng-click="ctrl.getWithCircuitBreaker()">With Circuit Breaker</button>
+    <br />
+    <button ng-click="ctrl.getWithCircuitBreakerAndRetry()">With Circuit Breaker and Retry</button>
+    <br />
+    <hr />
+    <br />
+    <pre>{{ctrl.result}}</pre>
+</div>
