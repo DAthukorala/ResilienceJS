@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "angular": "^1.8.2",
-    "cockatiel": "^2.0.1"
+    "cockatiel": "^2.0.2"
   }
 }
